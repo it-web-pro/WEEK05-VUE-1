@@ -78,7 +78,8 @@
                 <li><code>number_runner</code> เป็นเลขคู่ ให้แสดงปุ่ม<b>สีเขียว</b></li>
                 <li><code>number_runner</code> เป็นเลขคี่ ให้แสดงปุ่ม<b>สีแดง</b></li>
                 <li><code>number_runner</code> เป็นเลข 0 ให้แสดงปุ่ม<b>สีฟ้า</b></li><br>
-                <span class="has-background-warning"> *** กำหนดให้ใช้ v-if *** </span>
+                <span class="has-background-warning"> *** กำหนดให้ใช้ v-if *** </span><br/><br/>
+                <span class="has-background-info has-text-white p-2"> ??? v-show แตกต่างจาก v-if อย่างไร ลองใช้ v-show กับข้อนี้แล้วสังเกตความแตกต่าง ??? </span>
             </p>
             <p class="my-4 has-background-info-light p-3">
                 <b>วิธีทำ:</b> เปิดไฟล์นี้ในโปรแกรม vscode และแก้ไข code ใน
@@ -132,6 +133,12 @@
                 หน้าที่ของนักศึกษาคือทำให้
                 Dropdown ทำงานได้ คือเมื่อกดหนึ่งครั้งก็จะแสดง Dropdown และเมื่อกดอีกครั้งก็จะปิด Dropdown โดยข้อมูลใน
                 Dropdown คือ List ของวันในสัปดาห์ โดยใช้ข้อมูลจาก <code>months</code>
+            </p>
+           
+            <p> 
+                <b>HINT:</b><br/>
+                - การจะให้ dropdown มันเปิดออกมาจะต้องเพิ่ม class="is-active" <code>&lt;div class="dropdown is-active"&gt;</code></br>
+                - ถ้าจะให้ dropdown หดกลับเข้าไปก็ลบ class "is-active" ออก <code>&lt;div class="dropdown"&gt;</code>
             </p>
             <p class="my-4 has-background-info-light p-3">
                 <b>วิธีทำ:</b> เปิดไฟล์นี้ในโปรแกรม vscode และแก้ไข code ใน
